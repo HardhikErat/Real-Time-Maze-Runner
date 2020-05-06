@@ -1,16 +1,16 @@
 $(function () {
 
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyB5hyiRFgp-T2dUJtMIbjo0byDEp0uyoS0",
-      authDomain: "mymaze-68cc1.firebaseapp.com",
-      databaseURL: "https://mymaze-68cc1.firebaseio.com",
-      projectId: "mymaze-68cc1",
-      storageBucket: "mymaze-68cc1.appspot.com",
-      messagingSenderId: "957669408395",
-      appId: "1:957669408395:web:7561a5794154f43a"
-    };
-    firebase.initializeApp(firebaseConfig);
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBgvEmrXDp0RA8cJQB9pTAAY3vaVJLX510",
+    authDomain: "mymaze--68cc1.firebaseapp.com",
+    databaseURL: "https://mymaze--68cc1.firebaseio.com",
+    projectId: "mymaze--68cc1",
+    storageBucket: "mymaze--68cc1.appspot.com",
+    messagingSenderId: "99013082825",
+    appId: "1:99013082825:web:4f5f81e62730efb0199718"
+  };
+  firebase.initializeApp(firebaseConfig);
   
     var DB = firebase.firestore();
     var BOARDREF = DB.collection(DBNAME).doc(GAMENAME).collection('board').doc('board');
